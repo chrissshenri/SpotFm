@@ -1,0 +1,18 @@
+.left-nav {
+    .nav-item {
+        display: flex;
+        align-items: center;
+        gap: .8rem;
+    }
+    .nav-options {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+
+        .nav-up, .nav-down {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+    }
+}

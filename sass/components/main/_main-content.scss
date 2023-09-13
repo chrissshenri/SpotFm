@@ -1,0 +1,53 @@
+.card-artist-content {
+    max-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    #icon-close {
+        position: relative;
+        top: .4rem;
+        right: .4rem;
+    }
+    #icon-play {
+        position: relative;
+        top: 10rem;
+        right: 1.6rem;
+    }
+    #artist-name {
+        font-size: $body01;
+        color: $secondary02;
+    }
+    #span-artist {
+        font-size: $body02;
+        color: $neutral01;
+    }
+}
+
+.card-genre-content {
+    width: 33rem;
+    #title-genre {
+        font-size: $header02;
+        color: $header02;
+        font-weight: 700;
+    }
+    .img-content-cards {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        transform: rotate(30deg);
+    }
+}
+
+.card-podcasts-content {
+    width: 15rem;
+    #title-genre {
+        font-size: $header03;
+        color: $header03;
+        font-weight: 700;
+    }
+    .img-content-cards {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        transform: rotate(30deg);
+    }
+}

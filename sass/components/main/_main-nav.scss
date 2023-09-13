@@ -1,0 +1,14 @@
+.main-nav.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .main-nav.content-left {
+        display: flex;
+        align-items: center;
+        gap: 2.4rem;
+    }
+    .main-nav.content-right {
+        display: flex;
+        gap: .4rem;
+    }
+}

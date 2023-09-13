@@ -1,0 +1,21 @@
+.friends-activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #title-friends-section {
+        font-size: $header04;
+        color: $secondary03;
+        font-weight: 700;
+        line-height: 1.6rem;
+        margin-bottom: 1.2rem;
+    }
+    .friends-item {
+        display: grid;
+        gap: .8rem;
+    }
+    .friends-item-content {
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+    }
+}

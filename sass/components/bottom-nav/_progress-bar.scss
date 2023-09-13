@@ -1,0 +1,25 @@
+.progress-bar-content {
+    display: flex;
+    gap: .8rem;
+    .time-init, .time-end {
+        font-size: $header06;
+        color: $neutral01;
+    }
+    .progress-bar1 {
+        height: .7rem;
+        width: 100%;
+        position: relative;
+        border-radius: 8px;
+        max-width: 60rem;
+        background-color: $neutral02;
+    }
+    .progress-bar2 {
+        height: .7rem;
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        border-radius: 8px;
+        background-color: $neutral01;
+    }
+}

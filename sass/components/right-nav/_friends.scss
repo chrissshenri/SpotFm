@@ -1,0 +1,30 @@
+.friends-item {
+    display: grid;
+    gap: .8rem;
+
+    .friend-title {
+        grid-area: friendName;
+    }
+    #playing-right-now-icon {
+        grid-area: playing;
+    }
+    .friend-song {
+        grid-area: songPlaying;
+    }
+    #playlist-icon {
+        grid-area: playlist;
+    }
+    .friend-source {
+        grid-area: source;
+    }
+    
+    .friends-item-content {
+        display: grid;
+        grid-template-columns: 15rem 15rem;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "friendName playing"
+            "songPlaying ."
+            "playlist source";
+    }
+}

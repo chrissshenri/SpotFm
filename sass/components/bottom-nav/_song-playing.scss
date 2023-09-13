@@ -1,0 +1,11 @@
+.song-playing-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .song-playing-content-item {
+        display: flex;
+        flex-direction: column;
+        gap: .4rem;
+    }
+}
